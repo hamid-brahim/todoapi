@@ -1,0 +1,12 @@
+server:
+  port: 9090
+spring:
+  mongodb:
+    database: springtodo
+    host: localhost
+    port: 27017
+
+auth:
+  expiration: 60800
+  secret: todoAPISecret134
+  header: Authorization
